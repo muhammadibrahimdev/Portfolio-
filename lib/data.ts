@@ -85,9 +85,9 @@ export const socials = {
   phone: "+923302826165",
   phoneDisplay: "+92 330 2826165",
   whatsapp: "https://wa.me/923302826165",
-  github: "https://github.com/ibrahim-engdev",
-  githubDisplay: "github.com/ibrahim-engdev",
-  linkedin: "https://www.linkedin.com/in/brahim-engdev/",
-  linkedinDisplay: "linkedin.com/in/brahim-engdev",
+  github: "https://github.com/muhammadibrahimdev",
+  githubDisplay: "github.com/muhammadibrahimdev",
+  linkedin: "https://www.linkedin.com/in/muhammad-ibrahimdev/",
+  linkedinDisplay: "linkedin.com/in/muhammad-ibrahimdev",
   location: "Karachi, Pakistan",
 };
