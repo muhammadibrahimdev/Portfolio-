@@ -40,7 +40,7 @@ export const projects = [
     details:
       "ClassPilot handles multiple schools on one deployment, each fully isolated. Auth uses short-lived JWTs with refresh-token rotation, Socket.IO powers live notifications, Stripe handles per-tenant subscriptions, and a PDF generation service produces report cards and invoices on demand.",
     stack: ["Node.js", "Express", "MongoDB", "Socket.IO", "Stripe", "JWT"],
-    tags: { github: "https://github.com/muhammadibrahimdev/Class-Pilot/blob/master/README.md", demo: "https://github.com/muhammadibrahimdev/Class-Pilot/blob/master/README.md" },
+    tags: { github: "https://github.com/muhammadibrahimdev/Class-Pilot", demo: "https://github.com/muhammadibrahimdev/Class-Pilot/blob/master/README.md" },
     featured: true,
   },
   {
