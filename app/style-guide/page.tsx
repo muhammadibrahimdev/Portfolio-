@@ -95,16 +95,16 @@ export default function StyleGuidePage() {
           <SectionHeading eyebrow="Primitives" title="Card" />
           <Card className="max-w-md">
             <CardHeader>
-              <CardTitle>ClassPilot</CardTitle>
+              <CardTitle>Portfolio Project</CardTitle>
               <CardDescription>
-                Multi-tenant school management SaaS with role-based auth and
-                Stripe billing.
+                Full-stack product concept with secure APIs, role access, and a
+                polished frontend.
               </CardDescription>
             </CardHeader>
             <CardContent className="flex flex-wrap gap-2">
-              <Badge>mongodb</Badge>
-              <Badge>socket.io</Badge>
-              <Badge>jwt</Badge>
+              <Badge>next.js</Badge>
+              <Badge>typescript</Badge>
+              <Badge>tailwind</Badge>
             </CardContent>
           </Card>
         </section>

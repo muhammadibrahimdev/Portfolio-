@@ -9,7 +9,7 @@ const facts = [
   { label: "Based in", value: "Karachi, Pakistan" },
   { label: "Studying", value: "BS Software Engineering, SMIU (2024 – 2028)" },
   { label: "Last role", value: "MERN Stack Developer, Technet Cloud (Nov 2025 – May 2026)" },
-  { label: "Building now", value: "ClassPilot and the AI Multilingual Messenger" },
+  { label: "Building now", value: "The AI Multilingual Messenger" },
   { label: "Looking for", value: "A junior full-stack or backend role, or an internship" },
 ];
 
@@ -36,8 +36,8 @@ export function About() {
               </p>
               <p>
                 The part I enjoy most is the backend: building APIs, login systems and user
-                roles, and keeping each customer&apos;s data separate. That is what I am
-                practising in ClassPilot, a multi-tenant school management platform.
+                roles, and keeping each customer&apos;s data separate. That is the kind of work
+                I want to keep building in real products and teams.
               </p>
               <p>
                 I am also adding Generative AI on top of that base. My PDF question

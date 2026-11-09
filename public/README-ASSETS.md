@@ -4,7 +4,6 @@ Drop images into the folder for each project. Name them `1.png`, `2.png`, `3.png
 (up to four per project). They appear automatically in the project card and on the project page,
 and the card rotates through them every few seconds. Missing files are skipped.
 
-public/projects/classpilot/
 public/projects/ai-questions-answers-generator/
 public/projects/ai-multilingual-messenger/
 public/projects/sellkar-storefronts/

@@ -76,45 +76,6 @@ export type Project = {
 
 export const projects: Project[] = [
   {
-    slug: "classpilot",
-    name: "ClassPilot",
-    tagline: "Multi-tenant school management platform",
-    summary:
-      "One platform for many schools, with separate logins for admins, teachers and parents and each school's data kept apart.",
-    status: "In development",
-    statusTone: "azure",
-    kind: "Web app · MERN",
-    stack: ["React", "Redux Toolkit", "Node.js", "Express", "MongoDB", "JWT"],
-    images: ["1.png", "2.png", "3.png", "4.png"],
-    imageFit: "cover",
-    overview:
-      "ClassPilot is a school management SaaS. Several schools run on one deployment, and each one only ever sees its own classes, teachers, students and parents. I am building it as my main backend project, so the focus is on authentication, access control and data isolation before the feature list grows.",
-    problem:
-      "Many schools track attendance, fees and results across separate registers and chat groups. A shared platform has to give every school its own space and give each person only the access their role allows.",
-    built: [
-      "Multi-role backend for Super Admin, School Admin, Teacher and Parent accounts.",
-      "JWT authentication with bcrypt password hashing.",
-      "Role-based access control (RBAC) on the API routes.",
-      "Multi-tenant design that keeps each school's data separate.",
-      "React frontend with Redux Toolkit for state management.",
-    ],
-    planned: [
-      "Attendance marking for teachers, with absence alerts for parents.",
-      "Monthly fee records and payment tracking.",
-      "Results and report cards.",
-      "Live notifications with Socket.IO.",
-      "Automated tests and a public live demo.",
-    ],
-    links: [
-      {
-        label: "Source code",
-        href: "https://github.com/muhammadibrahimdev/Class-Pilot",
-        kind: "code",
-      },
-    ],
-    note: "The planned features are not built yet. This page will be updated as each one ships.",
-  },
-  {
     slug: "ai-questions-answers-generator",
     name: "AI Questions & Answers Generator",
     tagline: "Turn an uploaded PDF into study questions",
