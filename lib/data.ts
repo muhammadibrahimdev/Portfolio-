@@ -74,13 +74,14 @@ export type Project = {
   note?: string;
 };
 
+
 export const projects: Project[] = [
   {
     slug: "ai-questions-answers-generator",
     name: "AI Questions & Answers Generator",
     tagline: "Turn an uploaded PDF into study questions",
     summary:
-      "Upload a PDF and an LLM writes questions and answers from its content, served through FastAPI endpoints.",
+      "Upload a PDF and an LLM generates questions and answers from its content using FastAPI.",
     status: "Built · deploying next",
     statusTone: "emerald",
     kind: "Web app · Python",
@@ -88,45 +89,22 @@ export const projects: Project[] = [
     images: ["qa1.jpg", "2.png", "3.png", "4.png"],
     imageFit: "cover",
     overview:
-      "A small app that reads an uploaded PDF and uses a large language model to generate questions and answers from the text. It has FastAPI endpoints for file upload and content generation, plus a simple web interface to try it.",
+      "An application that extracts text from uploaded PDFs and uses an LLM to generate questions and answers.",
     problem:
-      "Writing practice questions from lecture notes or chapters takes time. This app drafts them from the document itself, so a student or teacher gets a starting set to review and edit.",
+      "Creating practice questions from lecture notes takes time. This application automates the initial question-generation process.",
     built: [
       "PDF upload and text extraction.",
-      "LLM question and answer generation using LangChain and the Groq API.",
+      "LLM-powered question and answer generation.",
       "FastAPI endpoints for file upload and content generation.",
-      "A simple web interface to upload a file and read the results.",
+      "Web interface to upload documents and view generated results.",
     ],
-        links: [{ label: "Visit ai-questions-answers-generator.vercel.app", href: "https://ai-questions-answers-generator.vercel.app/", kind: "demo" }],
-   
-  },
-  {
-    slug: "ai-multilingual-messenger",
-    name: "AI Multilingual Messenger",
-    tagline: "A chat app for people who don't share a language",
-    summary:
-      "A Flutter chat app with a Supabase backend and an AI translation workflow for simple, accessible messaging.",
-    status: "In development",
-    statusTone: "azure",
-    kind: "Mobile app · Flutter",
-    stack: ["Flutter", "Dart", "Supabase", "AI/LLM Integration"],
-    images: ["1.png", "2.png", "3.png", "4.png"],
-    imageFit: "contain",
-    overview:
-      "A mobile chat app that helps people talk across languages. The client is built with Flutter, Supabase provides the backend and data, and an AI translation workflow handles messages between languages.",
-    problem:
-      "People who speak different languages often fall back on copy-pasting into a translator. Translation built into the conversation keeps the chat simple.",
-    built: [
-      "Flutter chat client.",
-      "Supabase for the backend and data.",
-      "AI translation workflow, in design and early build.",
+    links: [
+      {
+        label: "Visit AI Questions & Answers Generator",
+        href: "https://ai-questions-answers-generator.vercel.app/",
+        kind: "demo",
+      },
     ],
-    planned: [
-      "Android build (APK) for download.",
-      "Short demo video and screenshots on this page.",
-    ],
-    links: [],
-    note: "Still in progress, so there is no public build yet.",
   },
   {
     slug: "sellkar-storefronts",
@@ -137,21 +115,61 @@ export const projects: Project[] = [
     status: "Live",
     statusTone: "emerald",
     kind: "Work project · Technet Cloud",
-    stack: ["React", "React Native (Expo)"],
-    images: ["sellkar1.jpg", "2.png", "3.png", "4.png"],
+    stack: ["React", "Next.js", "React Native (Expo)"],
+    images: ["sellkar1.jpg", "sellkar2.jpg", "sellkar3.jpg", "4.png"],
     imageFit: "cover",
     overview:
-      "Sellkar.pk is an online store platform built by Technet Cloud. During my internship (Nov 2025 – May 2026) I worked on the storefront themes that sellers choose from and on the mobile side of the platform.",
+      "Sellkar.pk is an online store platform built by Technet Cloud. During my internship, I worked on storefront themes and mobile application features.",
     problem:
-      "A seller needs a storefront that looks right on any screen without designing one from scratch, so the platform offers ready-made themes they can preview and deploy.",
+      "Sellers need ready-made storefronts that look professional across different devices without building their own websites.",
     built: [
       "20+ responsive storefront themes that users can preview and deploy.",
-      "Mobile features for the platform, built in React Native with Expo.",
+      "Mobile application features using React Native and Expo.",
     ],
-    links: [{ label: "Visit sellkar.pk", href: "https://sellkar.pk", kind: "demo" }],
-    note: "This was team work for a company, so I describe only the parts I built.",
+    links: [
+      {
+        label: "Visit Sellkar.pk",
+        href: "https://sellkar.pk",
+        kind: "demo",
+      },
+    ],
+    note: "Team project. I describe only the components I personally developed.",
+  },
+  {
+    slug: "mirageworks-website",
+    name: "Mirage Works",
+    tagline: "A professional multi-page corporate website",
+    summary:
+      "Designed and developed a 25+ page business website showcasing corporate services, financial solutions, ERP implementation, and business process outsourcing.",
+    status: "Live",
+    statusTone: "emerald",
+    kind: "Work project · Technet Cloud",
+    stack: ["Next.js", "React", "TypeScript", "Tailwind CSS"],
+    images: ["mirage1.jpg","mirage2.jpg","mirage3.jpg"],
+    imageFit: "cover",
+    overview:
+      "Mirage Works is a corporate business website built to establish the company's online presence and showcase its professional services. The website presents financial management, accounting, ERP implementation, and business process outsourcing solutions through a multi-page experience.",
+    problem:
+      "Businesses need a professional online presence to communicate their services, establish credibility, and convert visitors into potential clients.",
+    built: [
+      "Developed a 25+ page corporate website.",
+      "Built responsive layouts for desktop, tablet, and mobile devices.",
+      "Created structured pages to showcase business services and solutions.",
+      "Implemented service sections covering accounting, financial management, ERP solutions, and business process outsourcing.",
+      "Developed navigation, calls to action, and contact sections to improve user experience and client engagement.",
+      "Organized business information into a clear and accessible website structure.",
+    ],
+    links: [
+      {
+        label: "Visit Mirage Works",
+        href: "https://www.mirageworks.co/",
+        kind: "demo",
+      },
+    ],
+    note: "Developed during my internship at Technet Cloud.",
   },
 ];
+
 
 export const socials = {
   email: "mailto:ibrahim.engdev@gmail.com",
